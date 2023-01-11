@@ -1,0 +1,787 @@
+@media (max-width:376px) {
+    .header {
+        width: 100%;
+        padding: 0;
+        .header_top {
+            width: 100%;
+            margin-top: 0;
+            .logo {
+                width: 80%;
+                margin-left: 0;
+            }
+            ul {
+                display: none;
+            }
+            .responsive-botton {
+                display: block;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                width: 20%;
+            }
+        }
+        .header_bottom {
+            width: 100%;
+            h3 {
+                font-size: 30px;
+                margin-left: 0px;
+                text-align: center;
+                width: 100%;
+                margin-top: 300px;
+            }
+            h2 {
+                width: 100%;
+                font-size: 40px;
+                margin-left: 0px;
+                text-align: center;
+            }
+            p {
+                margin-left: 0px;
+                width: 100%;
+                text-align: center;
+            }
+            button {
+                width: 137px;
+                height: 47px;
+                // margin-left: 100px;
+            }
+        }
+    }
+    main {
+        width: 100%;
+        .menu_list {
+            width: 100%;
+            ul {
+                width: 100%;
+                padding: 0;
+                flex-wrap: wrap;
+                li {
+                    width: 100%;
+                }
+            }
+        }
+        .bizning-tarix {
+            width: 100%;
+            margin-top: 550px;
+            ul {
+                padding: 0;
+                width: 100%;
+                li {
+                    width: 100%;
+                    h2 {
+                        font-size: 40px;
+                    }
+                    .ptext {
+                        width: 100%;
+                    }
+                    .soni {
+                        width: 100%;
+                        margin-top: 50px;
+                        flex-wrap: wrap;
+                        p {
+                            width: 100%;
+                        }
+                    }
+                }
+                .li2 {
+                    display: none;
+                }
+            }
+        }
+        .zakaz-stol {
+            width: 100%;
+            margin-top: 200px;
+            ul {
+                width: 100%;
+                flex-direction: column;
+                li {
+                    width: 100%;
+                    h2 {
+                        font-size: 30px;
+                        width: 290px;
+                        height: 136px;
+                        margin-top: 30px;
+                        text-align: center;
+                    }
+                    p {
+                        width: 290px;
+                        text-align: center
+                    }
+                }
+                .li3 {
+                    width: 100%;
+                    width: 290px;
+                    button {
+                        margin-top: 30px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+        .bizning-taomlar {
+            width: 100%;
+            h1 {
+                width: 176px;
+                margin-top: 50px;
+                height: 92px;
+                font-size: 40px;
+            }
+            .taomlar-list {
+                width: 100%;
+                flex-direction: column;
+                .ul-taomlar {
+                    width: 100%;
+                    li {
+                        width: 100%;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+                .ul-item {
+                    width: 100%;
+                    .li-taomlar1 {
+                        width: 100%;
+                        img {
+                            margin: 0;
+                        }
+                        p {
+                            text-align: center;
+                        }
+                    }
+                    .li-taomlar {
+                        width: 100%;
+                        img {
+                            margin: 0;
+                        }
+                        p {
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+        .burger-max {
+            width: 100%;
+            margin-top: 400px;
+            ul {
+                width: 100%;
+                flex-wrap: wrap;
+            }
+        }
+        .nikolay-text {
+            width: 100%;
+            height: 600px;
+            margin-top: 800px;
+            .long-text {
+                width: 100%;
+                margin: 0;
+                height: 320px;
+                padding: 0;
+            }
+            img {
+                margin-top: 30px;
+                margin-left: 130px;
+            }
+            h4 {
+                width: 100%;
+                height: 50px;
+                margin: 0;
+                padding: 20px;
+                text-align: center;
+            }
+            p {
+                width: 100%;
+                height: 50px;
+                padding: 10px;
+                margin: 0;
+                text-align: center;
+            }
+        }
+        .rasm-taomlar {
+            width: 100%;
+            flex-wrap: wrap;
+            p {
+                width: 100%;
+            }
+            .rasmlar-list2 {
+                width: 100%;
+                flex-direction: column;
+                .ul1 {
+                    width: 100%;
+                    margin: 0;
+                    li {
+                        width: 100%;
+                        flex-wrap: wrap;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+                .ul2 {
+                    width: 100%;
+                    margin-top: 380px;
+                    li {
+                        width: 100%;
+                        flex-wrap: wrap;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        .rasm-oshpazlar {
+            width: 100%;
+            margin-top: 1400px;
+            p {
+                width: 100%;
+            }
+            .rasmlar-list {
+                width: 100%;
+                ul {
+                    width: 100%;
+                    li {
+                        width: 100%;
+                        flex-wrap: wrap;
+                        img {
+                            width: 100%;
+                            padding: 10px;
+                            margin: 10px 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        width: 100%;
+        margin-top: 950px;
+    }
+}
+
+@media (max-width:401px) {
+    .header {
+        width: 100%;
+        padding: 0;
+        .header_top {
+            width: 100%;
+            margin-top: 0;
+            .logo {
+                width: 80%;
+                margin-left: 0;
+            }
+            ul {
+                display: none;
+            }
+            .responsive-botton {
+                display: block;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                width: 20%;
+            }
+        }
+        .header_bottom {
+            width: 100%;
+            h3 {
+                font-size: 30px;
+                margin-left: 0px;
+                text-align: center;
+                width: 100%;
+                margin-top: 300px;
+            }
+            h2 {
+                width: 100%;
+                font-size: 40px;
+                margin-left: 0px;
+                text-align: center;
+            }
+            p {
+                margin-left: 0px;
+                width: 100%;
+                text-align: center;
+            }
+            button {
+                margin-left: 110px;
+            }
+        }
+    }
+    main {
+        width: 100%;
+        .menu_list {
+            width: 100%;
+            ul {
+                width: 100%;
+                padding: 0;
+                flex-wrap: wrap;
+                li {
+                    width: 100%;
+                }
+            }
+        }
+        .bizning-tarix {
+            width: 100%;
+            margin-top: 550px;
+            ul {
+                padding: 0;
+                width: 100%;
+                li {
+                    width: 100%;
+                    h2 {
+                        font-size: 40px;
+                    }
+                    .ptext {
+                        width: 100%;
+                    }
+                    .soni {
+                        width: 100%;
+                        margin-top: 70px;
+                        flex-wrap: wrap;
+                        p {
+                            width: 100%;
+                        }
+                    }
+                }
+                .li2 {
+                    display: none;
+                }
+            }
+        }
+        .zakaz-stol {
+            width: 100%;
+            margin-top: 200px;
+            ul {
+                width: 100%;
+                flex-direction: column;
+                li {
+                    width: 100%;
+                    h2 {
+                        font-size: 30px;
+                        width: 290px;
+                        height: 136px;
+                        margin-top: 30px;
+                        text-align: center;
+                    }
+                    p {
+                        width: 290px;
+                        text-align: center
+                    }
+                }
+                .li3 {
+                    width: 100%;
+                    width: 290px;
+                    button {
+                        margin-top: 30px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+        .bizning-taomlar {
+            width: 100%;
+            h1 {
+                width: 176px;
+                margin-top: 50px;
+                height: 92px;
+                font-size: 40px;
+            }
+            .taomlar-list {
+                width: 100%;
+                flex-direction: column;
+                .ul-taomlar {
+                    width: 100%;
+                    li {
+                        width: 100%;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+                .ul-item {
+                    width: 100%;
+                    .li-taomlar1 {
+                        width: 100%;
+                        img {
+                            margin: 0;
+                        }
+                        p {
+                            text-align: center;
+                        }
+                    }
+                    .li-taomlar {
+                        width: 100%;
+                        img {
+                            margin: 0;
+                        }
+                        p {
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+        .burger-max {
+            width: 100%;
+            margin-top: 400px;
+            ul {
+                width: 100%;
+                flex-wrap: wrap;
+            }
+        }
+        .nikolay-text {
+            width: 100%;
+            height: 600px;
+            margin-top: 800px;
+            .long-text {
+                width: 100%;
+                margin: 0;
+                height: 320px;
+                padding: 0;
+            }
+            img {
+                margin-top: 30px;
+                margin-left: 130px;
+            }
+            h4 {
+                width: 100%;
+                height: 50px;
+                margin: 0;
+                padding: 20px;
+                text-align: center;
+            }
+            p {
+                width: 100%;
+                height: 50px;
+                padding: 10px;
+                margin: 0;
+                text-align: center;
+            }
+        }
+        .rasm-taomlar {
+            width: 100%;
+            flex-wrap: wrap;
+            p {
+                width: 100%;
+            }
+            .rasmlar-list2 {
+                width: 100%;
+                flex-direction: column;
+                .ul1 {
+                    width: 100%;
+                    margin: 0;
+                    li {
+                        width: 100%;
+                        flex-wrap: wrap;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+                .ul2 {
+                    width: 100%;
+                    margin-top: 380px;
+                    li {
+                        width: 100%;
+                        flex-wrap: wrap;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        .rasm-oshpazlar {
+            width: 100%;
+            margin-top: 1400px;
+            p {
+                width: 100%;
+            }
+            .rasmlar-list {
+                width: 100%;
+                ul {
+                    width: 100%;
+                    li {
+                        width: 100%;
+                        flex-wrap: wrap;
+                        img {
+                            width: 100%;
+                            padding: 10px;
+                            margin: 10px 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        width: 100%;
+        margin-top: 950px;
+    }
+}
+
+@media (max-width:430px) {
+    .header {
+        width: 100%;
+        padding: 0;
+        .header_top {
+            width: 100%;
+            margin-top: 0;
+            .logo {
+                width: 80%;
+                margin-left: 0;
+            }
+            ul {
+                display: none;
+            }
+            .responsive-botton {
+                display: block;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                width: 20%;
+            }
+        }
+        .header_bottom {
+            width: 100%;
+            h3 {
+                font-size: 30px;
+                margin-left: 0px;
+                text-align: center;
+                width: 100%;
+                margin-top: 300px;
+            }
+            h2 {
+                width: 100%;
+                font-size: 40px;
+                margin-left: 0px;
+                text-align: center;
+            }
+            p {
+                margin-left: 0px;
+                width: 100%;
+                text-align: center;
+            }
+            button {
+                margin-left: 130px;
+            }
+        }
+    }
+    main {
+        width: 100%;
+        .menu_list {
+            width: 100%;
+            ul {
+                width: 100%;
+                padding: 0;
+                flex-wrap: wrap;
+                li {
+                    width: 100%;
+                }
+            }
+        }
+        .bizning-tarix {
+            width: 100%;
+            margin-top: 550px;
+            ul {
+                padding: 0;
+                width: 100%;
+                li {
+                    width: 100%;
+                    h2 {
+                        font-size: 40px;
+                    }
+                    .ptext {
+                        width: 100%;
+                    }
+                    .soni {
+                        width: 100%;
+                        margin-top: 50px;
+                        flex-wrap: wrap;
+                        p {
+                            width: 100%;
+                        }
+                    }
+                }
+                .li2 {
+                    display: none;
+                }
+            }
+        }
+        .zakaz-stol {
+            width: 100%;
+            margin-top: 200px;
+            ul {
+                width: 100%;
+                flex-direction: column;
+                li {
+                    width: 100%;
+                    h2 {
+                        font-size: 30px;
+                        width: 290px;
+                        height: 136px;
+                        margin-top: 30px;
+                        text-align: center;
+                    }
+                    p {
+                        width: 290px;
+                        text-align: center
+                    }
+                }
+                .li3 {
+                    width: 100%;
+                    width: 290px;
+                    button {
+                        margin-top: 30px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+        .bizning-taomlar {
+            width: 100%;
+            h1 {
+                width: 176px;
+                margin-top: 50px;
+                height: 92px;
+                font-size: 40px;
+            }
+            .taomlar-list {
+                width: 100%;
+                flex-direction: column;
+                .ul-taomlar {
+                    width: 100%;
+                    li {
+                        width: 100%;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+                .ul-item {
+                    width: 100%;
+                    .li-taomlar1 {
+                        width: 100%;
+                        img {
+                            margin: 0;
+                        }
+                        p {
+                            text-align: center;
+                        }
+                    }
+                    .li-taomlar {
+                        width: 100%;
+                        img {
+                            margin: 0;
+                        }
+                        p {
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+        .burger-max {
+            width: 100%;
+            margin-top: 400px;
+            ul {
+                width: 100%;
+                flex-wrap: wrap;
+            }
+        }
+        .nikolay-text {
+            width: 100%;
+            height: 600px;
+            margin-top: 800px;
+            .long-text {
+                width: 100%;
+                margin: 0;
+                height: 320px;
+                padding: 0;
+            }
+            img {
+                margin-top: 30px;
+                margin-left: 150px;
+            }
+            h4 {
+                width: 100%;
+                height: 50px;
+                margin: 0;
+                padding: 20px;
+                text-align: center;
+            }
+            p {
+                width: 100%;
+                height: 50px;
+                padding: 10px;
+                margin: 0;
+                text-align: center;
+            }
+        }
+        .rasm-taomlar {
+            width: 100%;
+            flex-wrap: wrap;
+            p {
+                width: 100%;
+            }
+            .rasmlar-list2 {
+                width: 100%;
+                flex-direction: column;
+                .ul1 {
+                    width: 100%;
+                    margin: 0;
+                    li {
+                        width: 100%;
+                        flex-wrap: wrap;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+                .ul2 {
+                    width: 100%;
+                    margin-top: 450px;
+                    li {
+                        width: 100%;
+                        flex-wrap: wrap;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        .rasm-oshpazlar {
+            width: 100%;
+            margin-top: 1560px;
+            p {
+                width: 100%;
+            }
+            .rasmlar-list {
+                width: 100%;
+                ul {
+                    width: 100%;
+                    li {
+                        width: 100%;
+                        flex-wrap: wrap;
+                        img {
+                            width: 100%;
+                            padding: 10px;
+                            margin: 10px 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        width: 100%;
+        margin-top: 1130px;
+    }
+}

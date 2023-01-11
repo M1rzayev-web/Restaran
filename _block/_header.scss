@@ -1,0 +1,106 @@
+.header {
+    padding: 0 165px 0 166px;
+    width: 1440px;
+    height: 800px;
+    border: 1px solid transparent;
+    background-image: url("/images/big\ bg\ img.png");
+    .header_top {
+        margin-top: 50px;
+        width: 100%;
+        height: 70px;
+        // border: 1px solid green;
+        display: flex;
+        .logo {
+            width: 30%;
+            height: 100%;
+            // border: 1px solid green;
+        }
+        .responsive-botton {
+            color: white;
+            font-size: 32px;
+            display: flex;
+            align-items: center;
+            display: none;
+        }
+        ul {
+            width: 70%;
+            height: 100%;
+            // border: 1px solid green;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            li {
+                width: 50%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                a {
+                    color: white;
+                }
+                a:hover {
+                    border-bottom: 1px solid #FF7400;
+                    color: #FF7400;
+                    font-size: 18px;
+                }
+                button {
+                    width: 157px;
+                    height: 47px;
+                    background-color: #FF7400;
+                    border-radius: 5px;
+                    color: white;
+                    font-family: 'Open Sans';
+                    cursor: pointer;
+                    border: none;
+                }
+            }
+        }
+    }
+    .header_bottom {
+        width: 100%;
+        height: 680px;
+        // border: 1px solid green;
+        h3 {
+            width: 470px;
+            height: 57px;
+            color: #FF7400;
+            font-family: 'Tinos';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 50px;
+            line-height: 57px;
+            // border: 1px solid green;
+            margin-top: 195px;
+            margin-left: 50px;
+        }
+        h2 {
+            color: #FF7400;
+            width: 556px;
+            height: 85px;
+            font-family: 'Tinos';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 80px;
+            line-height: 92px;
+            margin-left: 20px;
+            // border: 1px solid green;
+        }
+        p {
+            color: white;
+            margin-top: 15px;
+            margin-left: 120px;
+            font-size: 18px;
+            width: 265px;
+        }
+        button {
+            width: 137px;
+            height: 47px;
+            color: white;
+            background-color: #FF7400;
+            border-radius: 5px;
+            margin-left: 185px;
+            margin-top: 15px;
+            border: none;
+        }
+    }
+}

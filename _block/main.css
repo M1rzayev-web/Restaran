@@ -1,0 +1,1235 @@
+* {
+  text-decoration: none;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0.5px solid red;
+}
+
+.header {
+  padding: 0 165px 0 166px;
+  width: 1440px;
+  height: 800px;
+  border: 1px solid transparent;
+  background-image: url("/images/big bg img.png");
+}
+.header .header_top {
+  margin-top: 50px;
+  width: 100%;
+  height: 70px;
+  display: flex;
+}
+.header .header_top .logo {
+  width: 30%;
+  height: 100%;
+}
+.header .header_top .responsive-botton {
+  color: white;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  display: none;
+}
+.header .header_top ul {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .header_top ul li {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .header_top ul li a {
+  color: white;
+}
+.header .header_top ul li a:hover {
+  border-bottom: 1px solid #FF7400;
+  color: #FF7400;
+  font-size: 18px;
+}
+.header .header_top ul li button {
+  width: 157px;
+  height: 47px;
+  background-color: #FF7400;
+  border-radius: 5px;
+  color: white;
+  font-family: "Open Sans";
+  cursor: pointer;
+  border: none;
+}
+.header .header_bottom {
+  width: 100%;
+  height: 680px;
+}
+.header .header_bottom h3 {
+  width: 470px;
+  height: 57px;
+  color: #FF7400;
+  font-family: "Tinos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 57px;
+  margin-top: 195px;
+  margin-left: 50px;
+}
+.header .header_bottom h2 {
+  color: #FF7400;
+  width: 556px;
+  height: 85px;
+  font-family: "Tinos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 92px;
+  margin-left: 20px;
+}
+.header .header_bottom p {
+  color: white;
+  margin-top: 15px;
+  margin-left: 120px;
+  font-size: 18px;
+  width: 265px;
+}
+.header .header_bottom button {
+  width: 137px;
+  height: 47px;
+  color: white;
+  background-color: #FF7400;
+  border-radius: 5px;
+  margin-left: 185px;
+  margin-top: 15px;
+  border: none;
+}
+
+main {
+  width: 1440px;
+}
+main .menu_list {
+  width: 100%;
+  height: 350px;
+  border: 1px solid transparent;
+}
+main .menu_list ul {
+  width: 100%;
+  height: 100%;
+  margin-top: -110px;
+  display: flex;
+  padding: 0 150px;
+}
+main .menu_list ul li {
+  border-radius: 5px;
+  width: 349px;
+  height: 328px;
+  background-color: white;
+  box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+}
+main .menu_list ul li img {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+main .menu_list ul li p {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 26px;
+  color: #2C2C2C;
+}
+main .menu_list ul li p span {
+  color: #BC9060;
+}
+main .menu_list ul li .p2 {
+  color: #656363;
+  margin-top: 40px;
+  padding: 0 10px;
+}
+main .bizning-tarix {
+  width: 100%;
+  height: 500px;
+  border: 1px solid transparent;
+}
+main .bizning-tarix ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 0 150px;
+}
+main .bizning-tarix ul li {
+  width: 50%;
+  height: 100%;
+  padding: 0 30px;
+}
+main .bizning-tarix ul li h2 {
+  text-align: center;
+  font-size: 52px;
+  margin-top: 30px;
+}
+main .bizning-tarix ul li h2 span {
+  color: #D67E34;
+}
+main .bizning-tarix ul li .ptext {
+  text-align: center;
+  color: #656363;
+  width: 444px;
+  height: 217px;
+  margin-top: 50px;
+  font-size: 19px;
+}
+main .bizning-tarix ul li .soni {
+  width: 444px;
+  display: flex;
+  margin-top: 1px;
+}
+main .bizning-tarix ul li .soni p {
+  font-size: 40px;
+  text-align: center;
+  color: #BC9060;
+}
+main .bizning-tarix ul li .soni span {
+  color: black;
+  font-size: 19px;
+}
+main .bizning-tarix ul .li2 {
+  width: 50%;
+  height: 100%;
+  padding: 0 30px;
+  display: flex;
+}
+main .zakaz-stol {
+  width: 100%;
+  height: 357px;
+  background-image: url("/images/bg img.png");
+}
+main .zakaz-stol ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+main .zakaz-stol ul li {
+  width: 75%;
+  height: 100%;
+}
+main .zakaz-stol ul li h2 {
+  width: 650px;
+  height: 120px;
+  font-size: 52px;
+  color: #D67E34;
+  margin-top: 100px;
+  font-family: "Tinos";
+}
+main .zakaz-stol ul li p {
+  color: white;
+  width: 650px;
+  font-size: 24px;
+  margin-top: 20px;
+  font-family: "Open Sans";
+}
+main .zakaz-stol ul .li3 {
+  width: 25%;
+  height: 100%;
+}
+main .zakaz-stol ul .li3 button {
+  width: 157px;
+  height: 47px;
+  margin-top: 175px;
+  background-color: #D67E34;
+  color: white;
+  border-radius: 5px;
+}
+main .bizning-taomlar {
+  width: 100%;
+  height: 800px;
+}
+main .bizning-taomlar h1 {
+  width: 1100px;
+  height: 100px;
+  margin-top: 132px;
+  font-size: 52px;
+  text-align: center;
+}
+main .bizning-taomlar h1 span {
+  color: #D67E34;
+}
+main .bizning-taomlar .taomlar-list {
+  width: 1100px;
+  height: 575px;
+  display: flex;
+}
+main .bizning-taomlar .taomlar-list .ul-taomlar {
+  width: 41%;
+  height: 100%;
+  display: flex;
+}
+main .bizning-taomlar .taomlar-list .ul-taomlar li {
+  width: 100%;
+  height: 100%;
+  padding-top: 85px;
+}
+main .bizning-taomlar .taomlar-list .ul-taomlar li img:hover {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+main .bizning-taomlar .taomlar-list .ul-item {
+  width: 59%;
+  height: 100%;
+}
+main .bizning-taomlar .taomlar-list .ul-item .li-taomlar1 {
+  width: 100%;
+  height: 27%;
+  margin-top: 86px;
+  display: flex;
+}
+main .bizning-taomlar .taomlar-list .ul-item .li-taomlar1 img {
+  margin-left: 30px;
+}
+main .bizning-taomlar .taomlar-list .ul-item .li-taomlar1 img:hover {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+main .bizning-taomlar .taomlar-list .ul-item .li-taomlar1 p {
+  display: flex;
+  align-items: center;
+  font-size: 26px;
+}
+main .bizning-taomlar .taomlar-list .ul-item .li-taomlar {
+  margin: 7px 0;
+  width: 100%;
+  height: 27%;
+  display: flex;
+}
+main .bizning-taomlar .taomlar-list .ul-item .li-taomlar img {
+  margin-left: 30px;
+}
+main .bizning-taomlar .taomlar-list .ul-item .li-taomlar img:hover {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+main .bizning-taomlar .taomlar-list .ul-item .li-taomlar p {
+  display: flex;
+  align-items: center;
+  font-size: 26px;
+}
+main .burger-max {
+  width: 100%;
+  height: 1038px;
+  background-image: url("/images/big img big.png");
+  border: 1px solid transparent;
+}
+main .burger-max ul {
+  width: 1130px;
+  height: 510px;
+  display: flex;
+  margin-top: 300px;
+}
+main .burger-max ul li {
+  width: 350px;
+  height: 100%;
+  background-color: white;
+}
+main .burger-max ul li img {
+  margin: 75px 63px 0 62px;
+}
+main .burger-max ul li .burger-text {
+  font-size: 26px;
+  text-align: center;
+}
+main .burger-max ul li p {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+}
+main .burger-max ul li button {
+  width: 220px;
+  height: 50px;
+  color: white;
+  background-color: #D67E34;
+  border: none;
+  margin: 20px 65px 0 65px;
+  font-size: 19px;
+}
+main .burger-max ul li:hover {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+main .nikolay-text {
+  width: 100%;
+  height: 500px;
+  border: 1px solid transparent;
+  background-color: #E6E5E5;
+}
+main .nikolay-text .long-text {
+  width: 920px;
+  height: 150px;
+  text-align: center;
+  font-family: "Open Sans";
+  margin: 104px 260px 0 260px;
+}
+main .nikolay-text img {
+  margin: 10px 670px 10px 670px;
+}
+main .nikolay-text h4 {
+  margin: 10px 670px 0 670px;
+  font-size: 20px;
+  width: 119px;
+  height: 27px;
+}
+main .nikolay-text p {
+  margin: 10px 670px 0 685px;
+  font-size: 20px;
+  width: 86px;
+  height: 27px;
+}
+main .rasm-taomlar {
+  width: 100%;
+  height: 780px;
+}
+main .rasm-taomlar p {
+  width: 1150px;
+  height: 13%;
+  margin-top: 70px;
+  font-size: 52px;
+  text-align: center;
+  font-family: "Tinos";
+}
+main .rasm-taomlar p span {
+  color: #D67E34;
+}
+main .rasm-taomlar .rasmlar-list2 {
+  width: 1150px;
+  height: 78%;
+  display: flex;
+}
+main .rasm-taomlar .rasmlar-list2 ul {
+  width: 50%;
+  height: 100%;
+}
+main .rasm-taomlar .rasmlar-list2 ul li img {
+  padding: 10px;
+}
+main .rasm-taomlar .rasmlar-list2 ul li img:hover {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+main .rasm-oshpazlar {
+  width: 100%;
+  height: 700px;
+}
+main .rasm-oshpazlar p {
+  width: 1150px;
+  height: 12%;
+  font-size: 52px;
+  text-align: center;
+  font-family: "Tinos";
+}
+main .rasm-oshpazlar p span {
+  color: #D67E34;
+}
+main .rasm-oshpazlar ul {
+  width: 80%;
+  height: 86%;
+  margin-top: 40px;
+}
+main .rasm-oshpazlar ul li {
+  width: 100%;
+  height: 100%;
+}
+main .rasm-oshpazlar ul li img {
+  margin: 10px 0 10px 23px;
+}
+main .rasm-oshpazlar ul li img:hover {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+footer {
+  width: 1440px;
+  background-image: url("/images/bg img bottom.png");
+  height: 730px;
+}
+
+@media (max-width: 376px) {
+  .header {
+    width: 100%;
+    padding: 0;
+  }
+  .header .header_top {
+    width: 100%;
+    margin-top: 0;
+  }
+  .header .header_top .logo {
+    width: 80%;
+    margin-left: 0;
+  }
+  .header .header_top ul {
+    display: none;
+  }
+  .header .header_top .responsive-botton {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 20%;
+  }
+  .header .header_bottom {
+    width: 100%;
+  }
+  .header .header_bottom h3 {
+    font-size: 30px;
+    margin-left: 0px;
+    text-align: center;
+    width: 100%;
+    margin-top: 300px;
+  }
+  .header .header_bottom h2 {
+    width: 100%;
+    font-size: 40px;
+    margin-left: 0px;
+    text-align: center;
+  }
+  .header .header_bottom p {
+    margin-left: 0px;
+    width: 100%;
+    text-align: center;
+  }
+  .header .header_bottom button {
+    width: 137px;
+    height: 47px;
+  }
+  main {
+    width: 100%;
+  }
+  main .menu_list {
+    width: 100%;
+  }
+  main .menu_list ul {
+    width: 100%;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+  main .menu_list ul li {
+    width: 100%;
+  }
+  main .bizning-tarix {
+    width: 100%;
+    margin-top: 550px;
+  }
+  main .bizning-tarix ul {
+    padding: 0;
+    width: 100%;
+  }
+  main .bizning-tarix ul li {
+    width: 100%;
+  }
+  main .bizning-tarix ul li h2 {
+    font-size: 40px;
+  }
+  main .bizning-tarix ul li .ptext {
+    width: 100%;
+  }
+  main .bizning-tarix ul li .soni {
+    width: 100%;
+    margin-top: 50px;
+    flex-wrap: wrap;
+  }
+  main .bizning-tarix ul li .soni p {
+    width: 100%;
+  }
+  main .bizning-tarix ul .li2 {
+    display: none;
+  }
+  main .zakaz-stol {
+    width: 100%;
+    margin-top: 200px;
+  }
+  main .zakaz-stol ul {
+    width: 100%;
+    flex-direction: column;
+  }
+  main .zakaz-stol ul li {
+    width: 100%;
+  }
+  main .zakaz-stol ul li h2 {
+    font-size: 30px;
+    width: 290px;
+    height: 136px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  main .zakaz-stol ul li p {
+    width: 290px;
+    text-align: center;
+  }
+  main .zakaz-stol ul .li3 {
+    width: 100%;
+    width: 290px;
+  }
+  main .zakaz-stol ul .li3 button {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main .bizning-taomlar {
+    width: 100%;
+  }
+  main .bizning-taomlar h1 {
+    width: 176px;
+    margin-top: 50px;
+    height: 92px;
+    font-size: 40px;
+  }
+  main .bizning-taomlar .taomlar-list {
+    width: 100%;
+    flex-direction: column;
+  }
+  main .bizning-taomlar .taomlar-list .ul-taomlar {
+    width: 100%;
+  }
+  main .bizning-taomlar .taomlar-list .ul-taomlar li {
+    width: 100%;
+  }
+  main .bizning-taomlar .taomlar-list .ul-taomlar li img {
+    width: 100%;
+  }
+  main .bizning-taomlar .taomlar-list .ul-item {
+    width: 100%;
+  }
+  main .bizning-taomlar .taomlar-list .ul-item .li-taomlar1 {
+    width: 100%;
+  }
+  main .bizning-taomlar .taomlar-list .ul-item .li-taomlar1 img {
+    margin: 0;
+  }
+  main .bizning-taomlar .taomlar-list .ul-item .li-taomlar1 p {
+    text-align: center;
+  }
+  main .bizning-taomlar .taomlar-list .ul-item .li-taomlar {
+    width: 100%;
+  }
+  main .bizning-taomlar .taomlar-list .ul-item .li-taomlar img {
+    margin: 0;
+  }
+  main .bizning-taomlar .taomlar-list .ul-item .li-taomlar p {
+    text-align: center;
+  }
+  main .burger-max {
+    width: 100%;
+    margin-top: 400px;
+  }
+  main .burger-max ul {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  main .nikolay-text {
+    width: 100%;
+    height: 600px;
+    margin-top: 800px;
+  }
+  main .nikolay-text .long-text {
+    width: 100%;
+    margin: 0;
+    height: 320px;
+    padding: 0;
+  }
+  main .nikolay-text img {
+    margin-top: 30px;
+    margin-left: 130px;
+  }
+  main .nikolay-text h4 {
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  main .nikolay-text p {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+  }
+  main .rasm-taomlar {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  main .rasm-taomlar p {
+    width: 100%;
+  }
+  main .rasm-taomlar .rasmlar-list2 {
+    width: 100%;
+    flex-direction: column;
+  }
+  main .rasm-taomlar .rasmlar-list2 .ul1 {
+    width: 100%;
+    margin: 0;
+  }
+  main .rasm-taomlar .rasmlar-list2 .ul1 li {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  main .rasm-taomlar .rasmlar-list2 .ul1 li img {
+    width: 100%;
+  }
+  main .rasm-taomlar .rasmlar-list2 .ul2 {
+    width: 100%;
+    margin-top: 380px;
+  }
+  main .rasm-taomlar .rasmlar-list2 .ul2 li {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  main .rasm-taomlar .rasmlar-list2 .ul2 li img {
+    width: 100%;
+  }
+  main .rasm-oshpazlar {
+    width: 100%;
+    margin-top: 1400px;
+  }
+  main .rasm-oshpazlar p {
+    width: 100%;
+  }
+  main .rasm-oshpazlar .rasmlar-list {
+    width: 100%;
+  }
+  main .rasm-oshpazlar .rasmlar-list ul {
+    width: 100%;
+  }
+  main .rasm-oshpazlar .rasmlar-list ul li {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  main .rasm-oshpazlar .rasmlar-list ul li img {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  footer {
+    width: 100%;
+    margin-top: 950px;
+  }
+}
+@media (max-width: 401px) {
+  .header {
+    width: 100%;
+    padding: 0;
+  }
+  .header .header_top {
+    width: 100%;
+    margin-top: 0;
+  }
+  .header .header_top .logo {
+    width: 80%;
+    margin-left: 0;
+  }
+  .header .header_top ul {
+    display: none;
+  }
+  .header .header_top .responsive-botton {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 20%;
+  }
+  .header .header_bottom {
+    width: 100%;
+  }
+  .header .header_bottom h3 {
+    font-size: 30px;
+    margin-left: 0px;
+    text-align: center;
+    width: 100%;
+    margin-top: 300px;
+  }
+  .header .header_bottom h2 {
+    width: 100%;
+    font-size: 40px;
+    margin-left: 0px;
+    text-align: center;
+  }
+  .header .header_bottom p {
+    margin-left: 0px;
+    width: 100%;
+    text-align: center;
+  }
+  .header .header_bottom button {
+    margin-left: 110px;
+  }
+  main {
+    width: 100%;
+  }
+  main .menu_list {
+    width: 100%;
+  }
+  main .menu_list ul {
+    width: 100%;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+  main .menu_list ul li {
+    width: 100%;
+  }
+  main .bizning-tarix {
+    width: 100%;
+    margin-top: 550px;
+  }
+  main .bizning-tarix ul {
+    padding: 0;
+    width: 100%;
+  }
+  main .bizning-tarix ul li {
+    width: 100%;
+  }
+  main .bizning-tarix ul li h2 {
+    font-size: 40px;
+  }
+  main .bizning-tarix ul li .ptext {
+    width: 100%;
+  }
+  main .bizning-tarix ul li .soni {
+    width: 100%;
+    margin-top: 70px;
+    flex-wrap: wrap;
+  }
+  main .bizning-tarix ul li .soni p {
+    width: 100%;
+  }
+  main .bizning-tarix ul .li2 {
+    display: none;
+  }
+  main .zakaz-stol {
+    width: 100%;
+    margin-top: 200px;
+  }
+  main .zakaz-stol ul {
+    width: 100%;
+    flex-direction: column;
+  }
+  main .zakaz-stol ul li {
+    width: 100%;
+  }
+  main .zakaz-stol ul li h2 {
+    font-size: 30px;
+    width: 290px;
+    height: 136px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  main .zakaz-stol ul li p {
+    width: 290px;
+    text-align: center;
+  }
+  main .zakaz-stol ul .li3 {
+    width: 100%;
+    width: 290px;
+  }
+  main .zakaz-stol ul .li3 button {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main .bizning-taomlar {
+    width: 100%;
+  }
+  main .bizning-taomlar h1 {
+    width: 176px;
+    margin-top: 50px;
+    height: 92px;
+    font-size: 40px;
+  }
+  main .bizning-taomlar .taomlar-list {
+    width: 100%;
+    flex-direction: column;
+  }
+  main .bizning-taomlar .taomlar-list .ul-taomlar {
+    width: 100%;
+  }
+  main .bizning-taomlar .taomlar-list .ul-taomlar li {
+    width: 100%;
+  }
+  main .bizning-taomlar .taomlar-list .ul-taomlar li img {
+    width: 100%;
+  }
+  main .bizning-taomlar .taomlar-list .ul-item {
+    width: 100%;
+  }
+  main .bizning-taomlar .taomlar-list .ul-item .li-taomlar1 {
+    width: 100%;
+  }
+  main .bizning-taomlar .taomlar-list .ul-item .li-taomlar1 img {
+    margin: 0;
+  }
+  main .bizning-taomlar .taomlar-list .ul-item .li-taomlar1 p {
+    text-align: center;
+  }
+  main .bizning-taomlar .taomlar-list .ul-item .li-taomlar {
+    width: 100%;
+  }
+  main .bizning-taomlar .taomlar-list .ul-item .li-taomlar img {
+    margin: 0;
+  }
+  main .bizning-taomlar .taomlar-list .ul-item .li-taomlar p {
+    text-align: center;
+  }
+  main .burger-max {
+    width: 100%;
+    margin-top: 400px;
+  }
+  main .burger-max ul {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  main .nikolay-text {
+    width: 100%;
+    height: 600px;
+    margin-top: 800px;
+  }
+  main .nikolay-text .long-text {
+    width: 100%;
+    margin: 0;
+    height: 320px;
+    padding: 0;
+  }
+  main .nikolay-text img {
+    margin-top: 30px;
+    margin-left: 130px;
+  }
+  main .nikolay-text h4 {
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  main .nikolay-text p {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+  }
+  main .rasm-taomlar {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  main .rasm-taomlar p {
+    width: 100%;
+  }
+  main .rasm-taomlar .rasmlar-list2 {
+    width: 100%;
+    flex-direction: column;
+  }
+  main .rasm-taomlar .rasmlar-list2 .ul1 {
+    width: 100%;
+    margin: 0;
+  }
+  main .rasm-taomlar .rasmlar-list2 .ul1 li {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  main .rasm-taomlar .rasmlar-list2 .ul1 li img {
+    width: 100%;
+  }
+  main .rasm-taomlar .rasmlar-list2 .ul2 {
+    width: 100%;
+    margin-top: 380px;
+  }
+  main .rasm-taomlar .rasmlar-list2 .ul2 li {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  main .rasm-taomlar .rasmlar-list2 .ul2 li img {
+    width: 100%;
+  }
+  main .rasm-oshpazlar {
+    width: 100%;
+    margin-top: 1400px;
+  }
+  main .rasm-oshpazlar p {
+    width: 100%;
+  }
+  main .rasm-oshpazlar .rasmlar-list {
+    width: 100%;
+  }
+  main .rasm-oshpazlar .rasmlar-list ul {
+    width: 100%;
+  }
+  main .rasm-oshpazlar .rasmlar-list ul li {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  main .rasm-oshpazlar .rasmlar-list ul li img {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  footer {
+    width: 100%;
+    margin-top: 950px;
+  }
+}
+@media (max-width: 430px) {
+  .header {
+    width: 100%;
+    padding: 0;
+  }
+  .header .header_top {
+    width: 100%;
+    margin-top: 0;
+  }
+  .header .header_top .logo {
+    width: 80%;
+    margin-left: 0;
+  }
+  .header .header_top ul {
+    display: none;
+  }
+  .header .header_top .responsive-botton {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 20%;
+  }
+  .header .header_bottom {
+    width: 100%;
+  }
+  .header .header_bottom h3 {
+    font-size: 30px;
+    margin-left: 0px;
+    text-align: center;
+    width: 100%;
+    margin-top: 300px;
+  }
+  .header .header_bottom h2 {
+    width: 100%;
+    font-size: 40px;
+    margin-left: 0px;
+    text-align: center;
+  }
+  .header .header_bottom p {
+    margin-left: 0px;
+    width: 100%;
+    text-align: center;
+  }
+  .header .header_bottom button {
+    margin-left: 130px;
+  }
+  main {
+    width: 100%;
+  }
+  main .menu_list {
+    width: 100%;
+  }
+  main .menu_list ul {
+    width: 100%;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+  main .menu_list ul li {
+    width: 100%;
+  }
+  main .bizning-tarix {
+    width: 100%;
+    margin-top: 550px;
+  }
+  main .bizning-tarix ul {
+    padding: 0;
+    width: 100%;
+  }
+  main .bizning-tarix ul li {
+    width: 100%;
+  }
+  main .bizning-tarix ul li h2 {
+    font-size: 40px;
+  }
+  main .bizning-tarix ul li .ptext {
+    width: 100%;
+  }
+  main .bizning-tarix ul li .soni {
+    width: 100%;
+    margin-top: 50px;
+    flex-wrap: wrap;
+  }
+  main .bizning-tarix ul li .soni p {
+    width: 100%;
+  }
+  main .bizning-tarix ul .li2 {
+    display: none;
+  }
+  main .zakaz-stol {
+    width: 100%;
+    margin-top: 200px;
+  }
+  main .zakaz-stol ul {
+    width: 100%;
+    flex-direction: column;
+  }
+  main .zakaz-stol ul li {
+    width: 100%;
+  }
+  main .zakaz-stol ul li h2 {
+    font-size: 30px;
+    width: 290px;
+    height: 136px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  main .zakaz-stol ul li p {
+    width: 290px;
+    text-align: center;
+  }
+  main .zakaz-stol ul .li3 {
+    width: 100%;
+    width: 290px;
+  }
+  main .zakaz-stol ul .li3 button {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main .bizning-taomlar {
+    width: 100%;
+  }
+  main .bizning-taomlar h1 {
+    width: 176px;
+    margin-top: 50px;
+    height: 92px;
+    font-size: 40px;
+  }
+  main .bizning-taomlar .taomlar-list {
+    width: 100%;
+    flex-direction: column;
+  }
+  main .bizning-taomlar .taomlar-list .ul-taomlar {
+    width: 100%;
+  }
+  main .bizning-taomlar .taomlar-list .ul-taomlar li {
+    width: 100%;
+  }
+  main .bizning-taomlar .taomlar-list .ul-taomlar li img {
+    width: 100%;
+  }
+  main .bizning-taomlar .taomlar-list .ul-item {
+    width: 100%;
+  }
+  main .bizning-taomlar .taomlar-list .ul-item .li-taomlar1 {
+    width: 100%;
+  }
+  main .bizning-taomlar .taomlar-list .ul-item .li-taomlar1 img {
+    margin: 0;
+  }
+  main .bizning-taomlar .taomlar-list .ul-item .li-taomlar1 p {
+    text-align: center;
+  }
+  main .bizning-taomlar .taomlar-list .ul-item .li-taomlar {
+    width: 100%;
+  }
+  main .bizning-taomlar .taomlar-list .ul-item .li-taomlar img {
+    margin: 0;
+  }
+  main .bizning-taomlar .taomlar-list .ul-item .li-taomlar p {
+    text-align: center;
+  }
+  main .burger-max {
+    width: 100%;
+    margin-top: 400px;
+  }
+  main .burger-max ul {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  main .nikolay-text {
+    width: 100%;
+    height: 600px;
+    margin-top: 800px;
+  }
+  main .nikolay-text .long-text {
+    width: 100%;
+    margin: 0;
+    height: 320px;
+    padding: 0;
+  }
+  main .nikolay-text img {
+    margin-top: 30px;
+    margin-left: 150px;
+  }
+  main .nikolay-text h4 {
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  main .nikolay-text p {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+  }
+  main .rasm-taomlar {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  main .rasm-taomlar p {
+    width: 100%;
+  }
+  main .rasm-taomlar .rasmlar-list2 {
+    width: 100%;
+    flex-direction: column;
+  }
+  main .rasm-taomlar .rasmlar-list2 .ul1 {
+    width: 100%;
+    margin: 0;
+  }
+  main .rasm-taomlar .rasmlar-list2 .ul1 li {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  main .rasm-taomlar .rasmlar-list2 .ul1 li img {
+    width: 100%;
+  }
+  main .rasm-taomlar .rasmlar-list2 .ul2 {
+    width: 100%;
+    margin-top: 450px;
+  }
+  main .rasm-taomlar .rasmlar-list2 .ul2 li {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  main .rasm-taomlar .rasmlar-list2 .ul2 li img {
+    width: 100%;
+  }
+  main .rasm-oshpazlar {
+    width: 100%;
+    margin-top: 1560px;
+  }
+  main .rasm-oshpazlar p {
+    width: 100%;
+  }
+  main .rasm-oshpazlar .rasmlar-list {
+    width: 100%;
+  }
+  main .rasm-oshpazlar .rasmlar-list ul {
+    width: 100%;
+  }
+  main .rasm-oshpazlar .rasmlar-list ul li {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  main .rasm-oshpazlar .rasmlar-list ul li img {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  footer {
+    width: 100%;
+    margin-top: 1130px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
